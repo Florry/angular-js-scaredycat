@@ -1,0 +1,114 @@
+.card{
+	width: 130px;
+	height: 180px;
+	/*background-image: url("../images/yeoman.png");*/
+	background-image:url('../images/all.png');
+	color: white;
+	text-shadow: 1px 1px #888888;
+	padding: 0;
+
+}
+.frame{
+	width: 150px;
+	height: 200px;
+	background-color:white;
+	border-radius: 10px;
+	box-shadow: 2px 2px 10px #888888;
+	border: 1px solid black;
+	padding: 9px;
+	margin:1px;
+	float:left;
+	line-height: 200px;
+}
+
+.card.bird1{
+	background-position: 0px 0px;
+	color: black;
+	background-color: lightgrey;
+}
+
+.card.bird2{
+	background-position: -150px 0px;
+	background-color: red;
+}
+
+.card.bird3{
+	background-position: -300px 0px;
+	background-color: blue;
+}
+
+.card.bird4{
+	background-position: -450px 0px;
+	background-color: green;
+}
+
+.card.bird5{
+	background-position: -600px 0px;
+	background-color: yellow;
+	color: black;
+}
+
+.card.bird6{
+	background-position: -750px 0px;
+	background-color: orange;
+	color: white;
+}
+
+.hand{
+	background-color: white;
+	border: 1px dotted black;
+	width: auto;
+	padding: 30px;
+	margin: 30px;
+	text-align: center;
+}
+
+.scarecrow-hand{
+	width: 305px;
+	height: 605px;
+	border: 1px dotted black;
+}
+
+.scarecrow-card{
+	width: 150px;
+	height: 200px;
+	float:left;
+	text-align: center;
+}
+
+.card.scarecrow1 {
+	background-position:0px -400px;
+}
+.card.scarecrow2 {
+	background-position:-150px -400px;
+}
+.card.scarecrow3 {
+	background-position:0px -600px;
+}
+.card.scarecrow4 {
+	background-position:-150px -600px;
+}
+.card.scarecrow5 {
+	background-position:0px -800px;
+}
+.card.scarecrow6 {
+	background-position:-150px -800px;
+}
+
+.card.cat1 {
+	background-position:-0px -200px;
+}
+.card.cat2 {
+	background-position:-150px -200px;
+}
+.card.cat3 {
+	background-position:-300px -200px;
+}
+.card.cat4 {
+	background-position:-450px -200px;
+}
+
+.card.back{
+	background-image: url("../images/yeoman.png");
+	background-color: lightblue;
+}

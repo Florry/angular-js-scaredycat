@@ -1,0 +1,21 @@
+<!-- <h2>YO {{ username1 }} - Moves: {{moves}}</h2>
+<sc-card card-type="card" style="float: right;"></sc-card>
+<div class="clearfix"> {{player1Score}}</div>
+<sc-scarecrow-hand cards="scarecrowCards"></sc-scarecrow-hand>
+<sc-hand cards="player2cards" player-name="username2"></sc-hand>
+<sc-hand cards="player1cards" player-name="username1"></sc-hand> -->
+<h2>{{playerTurn}}s turn</h2>
+	<span ng-repeat="player in players">
+		<br/><h3>{{ player.name }} {{player.score}}</h3>
+	</span>
+<sc-card card-type="selectedCard" style="float:right" ng-click="getNextCard()" id="deck"></sc-card>
+<div class="cleafix"></div>
+<div ng-repeat="player in players">
+	<sc-hand player-name="player.name" cards="player.hand"></sc-hand>
+</div>
+
+<sc-scarecrow-hand cards="scarecrowCards"></sc-scarecrow-hand>
+
+<div ng-show="isGameFinished()">
+	<button class="btn btn-primary" ng-click="saveScore()">Save score</button>
+</div>

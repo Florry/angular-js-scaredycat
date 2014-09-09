@@ -1,0 +1,7 @@
+<h1>You scored {{ score }}!</h1>
+<h2>Highscore</h2>
+<ul>
+	<li ng-repeat="player in highscore track by $index">
+		{{player.name }} - {{player.score}}
+	</li>
+</ul>
